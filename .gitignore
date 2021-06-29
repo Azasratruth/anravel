@@ -1,3 +1,4 @@
+# Laravel
 /node_modules
 /public/hot
 /public/storage
@@ -10,3 +11,25 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+
+
+# Angular
+
+# compiled output
+/resources/frontend/customerApp/dist
+/resources/frontend/customerApp/tmp
+/resources/frontend/customerApp/out-tsc
+
+# Only exists if Bazel was run
+/resources/frontend/customerApp/bazel-out
+
+# dependencies
+/resources/frontend/customerApp/node_modules
+
+# profiling files
+/resources/frontend/customerApp/chrome-profiler-events*.json
+
+# System Files
+/resources/frontend/customerApp/.DS_Store
+/resources/frontend/customerApp/Thumbs.db
